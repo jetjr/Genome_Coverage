@@ -1,5 +1,5 @@
 ## Genome Coverage
-Generates a "depth of coverage" graph using a sample file containing WGS reads and a reference genome.
+Generates a "depth of coverage" graph using a sample file containing WGS reads and a reference genome. Average depth of coverage is calculated and reported.
 
 # Instructions for use:
 
@@ -18,4 +18,6 @@ This version only supports generating a single coverage graph at a time.
 
 # Output:
 
-A coverage graph will be generated using the data contained in [sample].coverage file. The Y-axis describes the number of reads that matched the reference at the position specified on the X-axis. 
+A coverage graph will be generated using the data contained in [sample].coverage file. The Y-axis describes the number of reads that matched the reference at the position specified on the X-axis. Average coverage is reported in the title.
+
+See the "examples" folder for an example coverage graph generated from this tool. 
